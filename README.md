@@ -2,8 +2,8 @@
 
 There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS.
 
-- Install Crossover (requires a paid license)
-- Create a new bottle
+- Install [Crossover](https://www.codeweavers.com/crossover) (requires a paid license)
+- Create a new Windows 10 bottle in Crossover
 - Install Steam
 - Open steam and install AOE2:DE
 - In the bottle, install DXVK
