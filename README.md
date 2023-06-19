@@ -1,8 +1,10 @@
 # Running Age of Empires 2 DE on macOS
 
-There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS.
+There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS (with multiplayer support).
 
-- Install [Crossover](https://www.codeweavers.com/crossover) (requires a paid license)
+You need MacOS Big Sur 11.1 or greater.
+
+- Install [Crossover](https://www.codeweavers.com/crossover) (requires a paid license but there's a free trial)
 - Create a new Windows 10 bottle in Crossover
 - Install Steam
 - Open steam and install AOE2:DE
