@@ -15,3 +15,5 @@ There are too many outdated instructions online. This place is meant to contain 
 - Put the `ucrtbase.dll` file you downloaded in that folder (overwrite the existing file)
 - Open the Wine configuration panel: in "Libraries" add `concrt140.dll` and `ucrtbase`. They should show up as `native, builtin` in the list.
 - In Steam, optionally set AOE2:DE launch parameters to `SKIPINTRO`
+
+Feel free to send pull requests to update this guide.
