@@ -2,6 +2,10 @@
 
 There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS (with multiplayer support).
 
+> **Warning**
+> 
+> There seems to be an issue with the latest Steam update, follow this thread: https://www.codeweavers.com/support/forums/general/?t=27;msg=279837
+
 You need MacOS Big Sur 11.1 or greater.
 
 - Install [Crossover](https://www.codeweavers.com/crossover) (requires a paid license but there's a free trial)
