@@ -8,8 +8,8 @@ You need MacOS Big Sur 11.1 or greater.
 - Create a new Windows 10 bottle in Crossover
 - Install Steam
 - Open steam and install AOE2:DE
-- In the bottle, install DXVK
-- In the bottle, install DirectX for modern games
+- In the bottle, install "DXVK (Builtin)"
+- In the bottle, install "DirectX for modern games"
 - In the bottle settings, enable DXVK
 - In the bottle settings, optionally enable "High resolution" to enable Retina display resolution
 - Download the patched [`ucrtbase.dll` here](https://community.pcgamingwiki.com/files/file/2081-ucrtbasedll-extracted-from-microsoft-visual-c-2015-redistributable-update-3-rc/)
