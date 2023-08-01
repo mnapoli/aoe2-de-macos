@@ -27,3 +27,4 @@ You need MacOS Big Sur 11.1 or greater.
 - In Steam, optionally set AOE2:DE launch parameters to `SKIPINTRO`
 
 Feel free to send pull requests to update this guide.
+
