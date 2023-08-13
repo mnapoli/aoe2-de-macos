@@ -1,4 +1,4 @@
-# Without Crossover
+# Running Age of Empires 2 DE on macOS Without Crossover
 
 Someone on reddit wrote a guide on how to play aoe 2 de on mac os without needing crossover. https://www.reddit.com/r/aoe2/comments/150t2v1/aoe_2_de_fix_on_mac_using_wineskin_winery/
 
