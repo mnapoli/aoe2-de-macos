@@ -1,8 +1,8 @@
 # Running Age of Empires 2 DE on macOS
 
-## With Crossover
-
 There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS (with multiplayer support).
+
+## With Crossover
 
 You need MacOS Big Sur 11.1 or greater.
 
