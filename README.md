@@ -1,4 +1,44 @@
-# Running Age of Empires 2 DE on macOS
+# Running Age of Empires 2 DE on macOS Without Crossover
+
+Someone on reddit wrote a guide on how to play aoe 2 de on mac os without needing crossover. https://www.reddit.com/r/aoe2/comments/150t2v1/aoe_2_de_fix_on_mac_using_wineskin_winery/
+
+Copy pasted here just in case
+
+Here's a quick guide on how to get it running (should work on Intel and Apple silicon Macs):
+
+- Start by installing Homebrew (https://brew.sh/) by opening terminal and typing the following:
+
+`/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+
+Install Wineskin Winery (https://github.com/Gcenx/WineskinServer) by typing the following in terminal:
+
+`brew install --cask --no-quarantine gcenx/wine/wineskin`
+
+- Open the Wineskin Winery app that should appear with the rest of your apps in your Applications folder.
+
+- Make sure you have the latest wrapper (currently 2.9.1.9 or higher) and install the latest engine (currently WS11WineCX64Bit22.1.1-8 or higher).
+ 
+- Click on the “Create New Blank Wrapper” button at the bottom. I named my wrapper “Steam” since it’ll be used for all my steam games. Wineskin Winery will create a new wrapper that will appear in “/Macintosh HD/Users/[YOUR USER NAME]/Applications/Wineskin/” folder (not the same Applications folder that has all your applications).
+ 
+- If Wineskin Winery freezes and becomes unresponsive, just give it some time. If it doesn’t fix itself in 5 minutes, then just kill it by holding the cmd+option+esc keys to get the force quit menu and kill the unresponsive process. Usually, the wrapper will be created successfully, so go ahead and use it directly.
+     
+- Open Finder and navigate to “/Macintosh HD/Users/[YOUR USER NAME]/Applications/Wineskin/”.
+     
+- Right-click on the new Steam wrapper and click on “Show Package Contents”.
+     
+- Click on the Wineskin app in there. This will be how you control the wrapper's settings.
+    
+- You can click on “Install Software” if you have a .exe file, but in the case of Steam, it’s better to install it through Winetricks as explained in the next steps.
+     
+- Click on “Winetricks”.
+-It might take some time to load, so be patient :)
+     
+- Search for Steam and install it with vcrun2019 or vcrun2022. It may take some time, so be patient.
+-Wait until it’s done installing and it should work afterwards! Just close the winetricks page and launch the wrapper directly like you’d do with any other app.
+
+
+
+# Running Age of Empires 2 DE on macOS with Crossover
 
 There are too many outdated instructions online. This place is meant to contain the most up-to-date instructions for running Age of Empires 2 DE on macOS (with multiplayer support).
 
@@ -27,3 +67,6 @@ You need MacOS Big Sur 11.1 or greater.
 - In Steam, optionally set AOE2:DE launch parameters to `SKIPINTRO`
 
 Feel free to send pull requests to update this guide.
+
+
+
