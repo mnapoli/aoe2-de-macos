@@ -22,6 +22,12 @@ You need MacOS Big Sur 11.1 or greater.
 
 Feel free to send pull requests to update this guide.
 
+### Fixing lag with Trebuchet
+
+If the game lags in Crossover (especially with units selected or health bars shown), [Trebuchet](https://trebuchetapp.com) ([source](https://github.com/kyrios/TrebuchetApp)) is a free, open-source launcher that runs AOE2:DE through Crossover with performance fixes on Apple Silicon. It uses the Crossover/Steam setup above and doesn't modify your bottle. It also supports [CaptureAge](https://captureage.com). Requires macOS 26 or 27.
+
+In our tests on an M1 Pro (macOS 26, same replay, compared to plain Crossover with DXVK): 8× the FPS paused with units selected, 7.3× while playing, +52% paused with nothing selected, and far fewer freezes of 150 ms or more.
+
 ## Without Crossover
 
 Someone on reddit wrote a guide on how to play aoe 2 de on mac os without needing crossover. https://www.reddit.com/r/aoe2/comments/150t2v1/aoe_2_de_fix_on_mac_using_wineskin_winery/
