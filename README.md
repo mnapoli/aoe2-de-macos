@@ -14,11 +14,9 @@ You need MacOS Big Sur 11.1 or greater.
 - In the bottle, install "DirectX for modern games"
 - In the bottle settings, enable DXVK
 - In the bottle settings, optionally enable "High resolution" to enable Retina display resolution
-- Download the patched [`ucrtbase.dll` here](https://community.pcgamingwiki.com/files/file/2081-ucrtbasedll-extracted-from-microsoft-visual-c-2015-redistributable-update-3-rc/)
-- In the Crossover bottle, click "Open C: drive" and navigate to `C:/Windows/System32`
-- Put the `ucrtbase.dll` file you downloaded in that folder (overwrite the existing file)
-- Open the Wine configuration panel: in "Libraries" add `concrt140.dll` and `ucrtbase`. They should show up as `native, builtin` in the list.
 - In Steam, optionally set AOE2:DE launch parameters to `SKIPINTRO`
+
+Older versions of this guide replaced `ucrtbase.dll` and set `concrt140` and `ucrtbase` to `native, builtin`. This is no longer needed with Crossover 26.x, and in a bottle without a native Visual C++ runtime it stops replays from loading ([measurements](https://github.com/kyrios/TrebuchetApp/blob/main/fixes/crossover-ucrt-note/README.md#m1-pro--crossover-263-in-game-measurement)).
 
 Feel free to send pull requests to update this guide.
 
